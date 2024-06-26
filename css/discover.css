@@ -33,15 +33,27 @@
   width: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 450px) {
   .discover-main-section {
     flex-direction: column;
     justify-content: center;
   }
 
   .discover-main-section .covers-image {
-    margin-top: 2rem;
-    height: 30vh;
-    width: auto;
+  width: 250px;
+  margin-left: 0;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+  .icon-section {
+    justify-content: center;
+    display: flex;
+  }
+  .call-to-action{
+    text-align: center;
+    font-size: 14px;
   }
 }

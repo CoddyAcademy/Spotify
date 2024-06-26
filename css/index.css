@@ -31,13 +31,27 @@
   align-self: center;
 }
 
-@media (max-width: 900px) {
-  .home-main-section .img-wrapper {
-    display: none;
-  }
-
+@media (max-width: 450px) {
+ 
   .home-main-section {
     justify-content: center;
+  }
+  .home-main-section .lady-image {
+    background-image: url(../images/landing-page-girl.png);
+    flex-grow: 1;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 50%;
+  }
+  .home-main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-direction: column;
   }
 }
 
